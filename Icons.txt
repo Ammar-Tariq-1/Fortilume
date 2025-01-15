@@ -1,0 +1,13 @@
+<i class="fa-solid fa-location-dot"></i> 	--- Location Icon---
+
+<i class="fa-solid fa-phone"></i> 		--- Phone Icon ---
+
+<i class="fa-solid fa-envelope"></i> 		--- Mail Icon ---
+
+<i class="fa-brands fa-facebook-f"></i> 	--- facebook Icon ---
+
+<i class="fa-brands fa-twitter"></i>  		--- Twitter Icon ----
+
+<i class="fa-brands fa-youtube"></i> 		--- Youtube Icon ----
+
+<i class="fa-brands fa-instagram"></i> 		--- Instagram Icon ---

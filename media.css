@@ -1,0 +1,176 @@
+@media (max-width:1400px) {
+    
+    .map img{
+        width: 530px;
+        height: 400px;
+    }
+
+    .form input{
+        padding-right: 250px;
+    }
+}
+
+@media (max-width:1024px) {
+
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+
+    .about_img img{
+        width: 500px;
+    }
+
+    .banner_img img{
+        width: 500px;
+    }
+
+    .form input{
+        padding-right: 200px;
+    }
+
+    .map img{
+        width: 530px;
+        height: 400px;
+    }
+}
+
+@media (max-width:821px){
+
+    .slider_text{
+        padding-top: 50px;
+    }
+
+    .slider_img img{
+        width: 400px;
+    }
+
+    .contact_us{
+        flex-wrap: wrap;
+    }
+
+    .about_sec{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .get_in{
+        gap: 50px;
+    }
+
+    .get_in p{
+        font-size: 12px;
+    }
+
+    .get_in hr{
+        width: 300px;
+    }
+
+    .banner_sec{
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+
+    .service_sec{
+        flex-wrap: wrap;
+    }
+
+    .form input{
+        width: 100%;
+    }
+
+    .client_sec{
+        /* flex-wrap: wrap; */
+    }
+
+    .card_sec{
+        padding-block: 50px;
+        position: static;
+        bottom: -50px;
+    }
+      
+
+}
+
+@media (max-width:431px){
+
+    header p{
+        font-size: 10px;
+    }
+
+    header i{
+        font-size: 12px;
+    }
+
+    .nav ul{
+        display: none;
+    }
+
+    .slider_text{
+        padding-block: 50px 120px;
+    }
+
+    .slider_text h1{
+        font-size: 40px;
+    }
+
+    .slider_text p{
+        padding-block: 30px;
+        font-size: 12px;
+    }
+
+    .slider_text button{
+        font-size: 15px;
+    }
+
+    .slider_img img{
+        display: none;
+    }
+
+    .client_sec{
+        flex-wrap: wrap;
+    }
+
+    .banner_img img{
+        width: 300px;
+    }
+
+    .about_sec img{
+        width: 320px;
+    }
+
+    .map img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .get_in{
+        display: none;
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:360px){
+
+    header p{
+        font-size: 9px;
+    }
+
+    header i{
+        font-size: 9px;
+    }
+
+}
+
+@media (max-width:330px){
+
+    header{
+        padding-inline: 15px;
+    }
+
+}

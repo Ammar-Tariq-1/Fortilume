@@ -1,0 +1,478 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.orange:hover{
+    background-color: rgb(55, 55, 255);
+}
+
+.blue:hover{
+    background-color: orange;
+}
+
+/* Header Section Begins */
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+}
+
+.call,
+.email{
+    display: flex;
+}
+
+header p{
+    color: white;
+}
+
+header i{
+    color: orange;
+    padding: 2px 5px 0 0;
+}
+/* Header Section Ends */
+
+/* Navigation Bar Start */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(211, 239, 249);
+}
+
+.nav h2{
+    color: rgb(55, 55, 255);
+    font-weight: 600;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+.nav ul li a{
+    padding: 20px;
+    color: black;
+    
+}
+
+.nav ul li .active{
+    color: rgb(55, 55, 255) ;
+}
+/* Navigation Bar End */
+
+/* Slider Begins */
+
+.slider{
+    background-color: rgb(211, 239, 249);
+}
+
+.slider_sec{
+    display: flex;
+    justify-content: center
+}
+
+.slider_text{
+    width: 500px;
+    padding-top: 150px;
+}
+.slider_text p{
+    padding-block: 20px;
+    line-height: 1.4;
+}
+
+.slider_text h1{
+    font-size: 45px;
+    color: rgb(55, 55, 255);
+}
+
+.slider_text button{
+    padding: 15px 50px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+}
+/* Slider End */
+
+/* Card Section Begins */
+
+.card_sec{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+   
+}
+
+.card_sec  svg{
+    height: 100px;
+    width: 100px;
+}
+
+.card_sec h5{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.repair{
+    background-color: white;
+    padding: 30px 100px;  
+    box-shadow: 1px 1px 5px 0 grey;
+    transition: 0.9s;
+}
+
+.repair:hover{
+    background-color: orange;
+}
+
+
+/* Card Section Ends */
+
+/* About Section Begins */
+
+.about{
+    padding-bottom: 100px;
+}
+
+.about_sec{
+    display: flex;
+    justify-content: center;
+}
+
+.about_img img{
+    width: 600px;
+}
+
+.about_text {
+    width: 500px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.about_text button{
+    width: 200px;
+    padding: 12px ;
+    background-color: rgb(55, 55, 255);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+/* About Section Ends */
+
+/* Banner Section Start  */
+
+.banner{
+    background-color: rgb(211, 239, 249);
+}
+
+.banner_sec{
+    display: flex;
+    justify-content: center;
+}
+
+.banner_text{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.banner_text h1{
+    color: rgb(55, 55, 255);
+}
+
+.banner_text button{
+    width: 200px;
+    padding: 12px ;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+/* Banner Section Ends */
+
+.services{
+    padding-block: 100px;
+}
+
+.services h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+.service_sec{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-block: 70px;
+}
+
+.service_sec img{
+    height: 80px;
+    width: 80px;
+}
+
+.service_sec h3{
+    padding-block: 10px ;
+}
+
+.serve{
+    width: 300px;
+    box-shadow: 0px 0px 10px 0 rgb(189, 189, 189) ;
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.services .button{
+    display: flex;
+    justify-content: center;
+}
+
+.serve:hover{
+    background-color: orange;
+}
+
+.services button{
+    text-align:center ;
+    padding: 12px 50px;
+    background-color: rgb(55, 55, 255);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+/* Clients section Start */
+
+.clients_container{
+    padding-block: 100px;
+}
+
+.clients_container h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+.client_sec{
+    display: flex;
+    gap: 25px;
+    padding-block: 70px;
+}
+
+.client_sec .client_img{
+    display: flex;
+}
+
+.client_sec .client_img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.client_sec h4{
+    padding: 40px 20px;
+    font-weight: 500;
+    
+}
+
+.client_sec p{
+    padding-block: 20px;
+}
+
+.client{
+    box-shadow: 0px 0px 10px 0 rgb(189, 189, 189) ;
+    padding: 20px;
+    text-align: left;
+    transition: 0.5s;
+}
+
+.client:hover{
+    transform: scale(0.9);
+}
+
+.clients_container .button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.clients_container button{
+    text-align:center ;
+    padding: 10px 20px;
+    background-color: rgb(55, 55, 255);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+/* Clients section End */
+
+/* Contact US Start */
+
+.contact_us{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form{
+    padding-right:40px ;
+}
+
+.form table tr td {
+    padding-block: 10px;
+    position: relative;
+}
+
+.form input{
+    padding: 15px 250px 15px 20px;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 5px 0 gray;
+    outline: none;
+}
+
+.form label{
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    color: gray;
+    transition: 0.3s;
+}
+
+.form input:focus+label{
+    transform: translateY(-25px);
+    background-color: white;
+    color: rgb(55, 55, 255);
+}
+
+.form button{
+    color: white;
+    background-color: rgb(55,55,255);
+    padding: 10px 50px;
+    border: none;
+    font-size: 18px;
+}
+
+.form textarea {
+    color: gray;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 5px 0 gray;
+    outline: none;
+    padding: 20px;
+    height: 150px;
+    width: 100%;
+}
+
+.form textarea:focus+label{
+    transform: translateY(-25px);
+    background-color: white;
+    color: rgb(55, 55, 255);
+}
+
+
+.map img{
+    margin-top: 50px;  
+    width: 700px;
+}
+
+/* Contact us End  */
+
+/* Footer Section Start  */
+
+footer{
+    background-color: rgb(0, 0, 81);
+    padding-block: 60px 20px;
+}
+
+.footer_sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+.circle{
+    display: flex;
+}
+
+.circle_text{
+    display:flex ;
+}
+
+.circle_text p{
+    padding-left: 100px;
+}
+
+.social i{
+    background-color: white;
+    color: rgb(55,55,255);
+    padding:10px ;
+}
+
+hr{
+    width: 100%;
+}
+
+.get_in{
+    display: flex;
+    position: relative;
+    left: 50px;
+    gap: 250px;
+    z-index: 1;
+    text-align: center;
+}
+
+.get_in p{
+    padding-block: 10px;
+}
+
+.get_in hr{
+    position: absolute;
+    left:60px ;
+    bottom: 80px;
+    z-index: -1;
+    width: 700px;
+}
+
+.get_in i{
+    background-color: rgb(55, 55, 255);
+    padding: 40px;
+    border-radius: 50px;
+}
+
+.get_in i:hover{
+    background-color: orange;
+}
+
+.social i:hover{
+    color: orange;
+}
+
+
+/* Footer Section End */
